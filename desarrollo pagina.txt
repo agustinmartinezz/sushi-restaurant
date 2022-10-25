@@ -1,0 +1,38 @@
+Colores:
+FFF5E4
+FFE3E1
+FFD1D1
+FF9494
+o
+937DC2
+C689C6
+FFABE1
+FFE6F7
+o
+D8D9CF
+EDEDED
+FF8787
+E26868
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+
+Uramaki
+Green roll, Crispy Ebi roll, California Roll, Salmon Avocado, Spicy Tuna Roll, Salmon Cream Cheese Roll
+
+Sashimi
+Salmon Sashimi, Hamachi Sashimi, Tuna Sashimi, Sashimi Mix
+
+SushiBoat
+Boat For Two, Oishi Boat, Dragon Boat, Custom Boat
+
+Hosomaki
+Kappa Maki, Cheese Maki, Salmon Maki, Avocado Maki, Spicy Tuna Maki
+
+
+
