@@ -1,10 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-width:700px;
+}
+
 nav .img-fluid {
   height: 10vh;
 }
 
 #menu .img-fluid {
-  height: 30vh;
-}
+  object-fit: cover;
+  border-radius: 1vh;
+  position: relative;
+  top: -1vh;
+  left: -1vh;
+} 
 
 #aboutus, #footer {
   background-color: #EDEDED;
@@ -14,6 +27,26 @@ nav .img-fluid {
   background-color: #D8D9CF;
  }
 
+ #menu h1 {
+  font-size: 7vh;
+  font-weight: 900;
+ }
+
+ #menu article div {
+  width: 49%;
+  height: 100%;
+ }
+
+ #menu article {
+  background-color: #EDEDED;
+  border-color: #EDEDED;
+  border-radius: 10px;
+ }
+
+ #menu .producto-info{
+  text-align: center;
+ }
+ 
 .navbar .navbar-nav > li > a:hover{
   color: #FF8787 !important; 
 }
@@ -40,11 +73,19 @@ header h1 {
   nav .img-fluid {
     height: 10vh;
   }
+  #menu .img-fluid {
+    height: 30vh;
+    width: 40vw;
+  }
 }
 
 @media (min-width: 768px) {
   header h1 {
     font-size: 18vh;
+  }
+  #menu .img-fluid {
+    height: 30vh;
+    width: 40vw;
   }
 }
 
@@ -52,10 +93,18 @@ header h1 {
   nav .img-fluid {
     height: 10vh;
   }
+  #menu .img-fluid {
+    height: 30vh;
+    width: 40vw;
+  }
 }
 
 @media (min-width: 1200px) {
   nav .img-fluid {
     height: 10vh;
+  }
+  #menu .img-fluid {
+    height: 30vh;
+    width: 25vw;
   }
 }
