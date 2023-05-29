@@ -7,6 +7,14 @@ body{
   min-width:700px;
 }
 
+h1, h2, li {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+p, h3, table * {
+  font-family: 'Montserrat', sans-serif;
+}
+
 nav .img-fluid {
   height: 10vh;
 }
@@ -27,14 +35,18 @@ nav .img-fluid {
   background-color: #D8D9CF;
  }
 
- #menu h1 {
+ #menu h1, #aboutus h1 {
   font-size: 7vh;
   font-weight: 900;
  }
 
- #menu article div {
-  width: 49%;
+ #menu article .producto-img {
+  width: 45%;
   height: 100%;
+ }
+
+ #menu article .producto-info {
+  width: 40%;
  }
 
  #menu article {
@@ -44,9 +56,33 @@ nav .img-fluid {
  }
 
  #menu .producto-info{
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  right: 10%;
   text-align: center;
  }
  
+ .producto-info h2 {
+  width: 60%;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 4vh;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+#aboutus img {
+  object-fit: cover;
+  border-radius: 2vh;
+  width: 100%;
+}
+
+#aboutus .container > .row {
+  height: 40vh;
+}
+
+
 .navbar .navbar-nav > li > a:hover{
   color: #FF8787 !important; 
 }
