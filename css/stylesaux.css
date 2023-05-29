@@ -2,6 +2,18 @@ nav .img-fluid {
   height: 10vh;
 }
 
+#menu .img-fluid {
+  height: 30vh;
+}
+
+#aboutus, #footer {
+  background-color: #EDEDED;
+ }
+
+#menu, #bookings {
+  background-color: #D8D9CF;
+ }
+
 .navbar .navbar-nav > li > a:hover{
   color: #FF8787 !important; 
 }
