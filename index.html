@@ -4,246 +4,246 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  <meta name="description" content="Agustin Martinez Portfolio" />
+  <meta name="author" content="Agustin Martinez" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
   <title>Sushi Co.</title>
+  
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
 </head>
-<body>
-    <section id="seccion1" class="seccion">
-      <div class="contenedor">
-        <nav>
-          <a href="#seccion1">
-            <img src="./images/favicon.png" alt="Logo de la empresa" title="Logo de la empresa">
-          </a>
-          <ul>
-            <li>
-              <a href="#seccion2">Carta</a>
-            </li>
-            <li>
-              <a href="#seccion3">Nosotros</a>
-            </li>
-            <li>
-              <a href="#seccion4">Reservas</a>
-            </li>
+<body class="d-flex flex-column h-100">
+  <nav class="navbar navbar-expand-md pt-3 position-absolute w-100">
+    <div id="nav" class="container w-75 px-5 bg-black rounded-5">
+        <a class="navbar-brand" href="index.html"><img src="./images/favicon.png" class="img-fluid" alt="image containing company logo" title="company logo"> </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0 small fw-bolder">
+            <li class="nav-item px-2 px-lg-4"><a id="nav-link" class="nav-link text-light" href="#menu">Menu</a></li>
+            <li class="nav-item px-2 px-lg-4"><a class="nav-link text-light" href="#aboutus">About us</a></li>
+            <li class="nav-item px-2 px-lg-4"><a class="nav-link text-light" href="#bookings">Bookings</a></li>
           </ul>
-        </nav>
-        <h1>
-          Sushi Co.
-        </h1>
-        <p>Hacer una reserva nunca fue tan fácil, haz la tuya directamente desde nuestro sitio web. Ven a visitarnos y probar el mejor sushi de la ciudad.</p>
+        </div>
+    </div>
+  </nav>
+  <header class="vh-100 d-flex flex-column vh-100 justify-content-center align-items-center">
+    <div class="d-flex flex-column justify-content-center align-items-center h-25 w-100 border-top border-bottom border-dark border-5">
+      <h1>Sushi Co.</h1>
+    </div>
+  </header>
+  <section id="menu">
+    <h1 class="col text-center py-5">
+      MENU
+    </h1>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2 mb-lg-4 flex-lg-nowrap gap-3">
+        <article class="card col mb-4 mb-lg-0 d-inline-block p-0">
+          <div class="producto-img float-start">
+            <img class="img-fluid align-baseline" src="./images/uramaki.png" alt="Imagen ejemplo de sushi uramaki" title="Uramaki">
+          </div>
+          <div class="producto-info float-end">
+            <h2>
+              Uramaki
+            </h2>
+            <p>
+              Green roll, Crispy Ebi Roll, California Roll, Salmon Avocado, Spicy Tuna Roll, Salmon Cream Cheese Roll
+            </p>
+          </div>
+        </article>
+        <article class="card col mb-4 mb-lg-0 d-inline-block p-0">
+          <div class="producto-img float-start">
+            <img class="img-fluid align-baseline" src="./images/sashimi.jpg" alt="Imagen ejemplo de sushi sashimi" title="Sashimi">
+          </div>
+          <div class="producto-info float-end">
+            <h2>
+              Sashimi
+            </h2>
+            <p>
+              Salmon Sashimi, Hamachi Sashimi, Tuna Sashimi, Sashimi Mix
+            </p>
+          </div>  
+        </article>
       </div>
-      <div id="franja">
 
+      <div class="row row-cols-1 row-cols-lg-2 mb-5 flex-lg-nowrap gap-3">
+        <article class="card col mb-4 mb-lg-0 d-inline-block p-0">
+          <div class="producto-img float-start">
+            <img class="img-fluid align-baseline" src="./images/sushiboat.png" alt="Imagen ejemplo de nuestro barco de suhi" title="Sushi boat">
+          </div>
+          <div class="producto-info float-end">
+            <h2>
+              Sushi Boat
+            </h2>
+            <p>
+              Boat For Two, Oishi Boat, Dragon Boat, Custom Boat
+            </p>
+          </div> 
+        </article>
+        <article class="card col mb-5 mb-lg-0 d-inline-block p-0">
+          <div class="producto-img float-start">
+            <img class="img-fluid align-baseline" src="./images/hosomaki.png" alt="Imagen ejemplo de sushi hosomaki" title="Hosomaki">
+          </div>
+          <div class="producto-info float-end">
+            <h2>
+              Hosomaki
+            </h2>
+            <p>
+              Kappa Maki, Cheese Maki, Salmon Maki, Avocado Maki, Spicy Tuna Maki
+            </p>
+          </div>
+        </article>
       </div>
-    </section>
-    <section id="seccion2" class="seccion">
-      <div class="contenedor">
-        <h1>
-          CARTA
-        </h1>
-        <div class="grid-productos">
-          <article class="producto">
-            <div class="producto-img">
-              <img src="./images/uramaki.png" alt="Imagen ejemplo de sushi uramaki" title="Uramaki">
+      
+    </div>
+    
+  </section>
+  <section id="aboutus" class="">
+    <h1 class="col text-center py-5">
+      ABOUT US
+    </h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 row mb-4 mb-lg-0">
+          <div class="col-6">
+            <img class="img-fluid h-100" src="./images/nos1.jpg" alt="Two champagne glasses">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid h-100" src="./images/nos2.jpg" alt="Photo taken in one of our restaurants">
+          </div>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="col-12 row h-50 mb-4 mb-lg-0 pb-lg-2">
+            <div class="col-4  h-100">
+              <img class="img-fluid h-100" src="./images/nos3.png" alt="Picture of our sushi">
             </div>
-            <div class="producto-info">
-              <h2>
-                Uramaki
-              </h2>
-              <p>
-                Green roll, Crispy Ebi Roll, California Roll, Salmon Avocado, Spicy Tuna Roll, Salmon Cream Cheese Roll
-              </p>
+            <div class="col-8  h-100">
+              <img class="img-fluid h-100" src="./images/nos4.jpg" alt="Picture of our kitchen">
             </div>
-          </article>
-          <article class="producto">
-            <div class="producto-img">
-              <img src="./images/sashimi.jpg" alt="Imagen ejemplo de sushi sashimi" title="Sashimi">
+          </div>
+          <div class="col-12 row h-50 pt-lg-2">
+            <div class="col-8  h-100">
+              <img class="img-fluid h-100" src="./images/nos5.jpg" alt="Floor decoration in one of our restaurants">
             </div>
-            <div class="producto-info">
-              <h2>
-                Sashimi
-              </h2>
-              <p>
-                Salmon Sashimi, Hamachi Sashimi, Tuna Sashimi, Sashimi Mix
-              </p>
-            </div>            
-          </article>
-          <article class="producto">
-            <div class="producto-img">
-              <img src="./images/sushiboat.png" alt="Imagen ejemplo de nuestro barco de suhi" title="Sushi boat">
+            <div class="col-4 h-100">
+              <img class="img-fluid h-100" src="./images/nos6.jpg" alt="Champagne glass picture">
             </div>
-            <div class="producto-info">
-              <h2>
-                Sushi Boat
-              </h2>
-              <p>
-                Boat For Two, Oishi Boat, Dragon Boat, Custom Boat
-              </p>
-            </div>            
-          </article>
-          <article class="producto">
-            <div class="producto-img">
-              <img src="./images/hosomaki.png" alt="Imagen ejemplo de sushi hosomaki" title="Hosomaki">
-            </div>
-            <div class="producto-info">
-              <h2>
-                Hosomaki
-              </h2>
-              <p>
-                Kappa Maki, Cheese Maki, Salmon Maki, Avocado Maki, Spicy Tuna Maki
-              </p>
-            </div>            
-          </article>
+          </div>
         </div>
       </div>
-    </section>
-    <section id="seccion3" class="seccion">
-      <div class="contenedor">
-        <h1>
-          NOSOTROS
-        </h1>
-        <section id="seccion3-sub1" class="sub-seccion">
-          <div id="celda1">
-            <div id="item1">
-              <img src="./images/nos1.jpg" alt="Foto de dos copas de champagne">
-            </div>
-            <div id="item2">
-              <img src="./images/nos2.jpg" alt="Foto de uno de nuestros restaurantes">
-            </div>
-          </div>
-          <div id="celda2">
-            <div id="item3">
-              <img src="./images/nos3.png" alt="Foto de nuestro sushi">
-            </div>
-            <div id="item4">
-              <img src="./images/nos4.jpg" alt="Foto de nuestra cocina">
-            </div>
-            <div id="item5">
-              <img src="./images/nos5.jpg" alt="Foto de una decoracion en el piso de uno de nuestros restaurantes">
-            </div>
-            <div id="item6">
-              <img src="./images/nos6.jpg" alt="Foto de una copa con champagne">
-            </div>
-          </div>
-        </section>
-        <section id="seccion3-sub2" class="sub-seccion">
-          <div id="seccion3-sub2-item1">
-            <h3>NUESTROS LOCALES</h3>
-            <ul>
-              <li><strong>Local Centro</strong> - Av. 18 de Julio 1261</li>
-              <li><strong>Local Tres Cruces</strong> - Av. Gral. Rivera 2403</li>
-              <li><strong>Local Pocitos</strong> - Av. Gral. Rivera 2403</li>
-              <li><strong>Local Malvin</strong> - Av. Enrique Legrand 5161</li>
+      <div class="row my-5">
+        <div class="row">
+          <div id="nuestros-locales" class="col-12 col-lg-6 d-flex flex-column justify-content-between mt-3 mt-lg-0 mb-sm-5 mb-lg-0 ms-sm-2 ms-lg-0">
+            <h3 class="fw-bolder">NUESTROS LOCALES</h3>
+            <ul class="list-unstyled mb-0">
+              <li class="fw-bolder">Local Centro - Av. 18 de Julio 1261</li>
+              <li class="fw-bolder">Local Tres Cruces - Av. Gral. Rivera 2403</li>
+              <li class="fw-bolder">Local Pocitos - Av. Gral. Rivera 2403</li>
+              <li class="fw-bolder">Local Malvin - Av. Enrique Legrand 5161</li>
             </ul>
           </div>
-          <div id="seccion3-sub2-item2">
-            <table>
+          <div class="col-12 col-lg-6">
+            <table class="table table-striped">
               <thead>
                 <tr>
-                  <th class="horariosTitulo fondoNegro"> Horarios</th>
-                  <th class="fondoNegro"><strong>Mediodia</strong></th>
-                  <th class="fondoNegro"><strong>Noche</strong></th>
+                  <th class="bg-black text-light"> Horarios</th>
+                  <th class="bg-black text-light fw-bolder">Mediodia</th>
+                  <th class="bg-black text-light fw-bolder">Noche</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td class="fondoNegro"><strong>Lunes a Viernes</strong></td>
-                  <td class="horario">11:30 a 15:00 hs</td>
-                  <td class="horario">18:30 a 23:00 hs</td>
+                  <td class="bg-black text-light fw-bolder">Lunes a Viernes</td>
+                  <td class="">11:30 a 15:00 hs</td>
+                  <td class="">18:30 a 23:00 hs</td>
                 </tr>
                 <tr>
-                  <td class="fondoNegro"><strong>Sabados</strong></td>
-                  <td class="horario" style="background-color: white;">12:00 a 16:00 hs</td>
-                  <td class="horario" style="background-color: white;">19:00 a 00:00 hs</td>
+                  <td class="bg-black text-light fw-bolder">Sabados</td>
+                  <td class="">12:00 a 16:00 hs</td>
+                  <td class="">19:00 a 00:00 hs</td>
                 </tr>
                 <tr>
-                  <td class="fondoNegro"><strong>Domingos</strong></td>
-                  <td class="horario">12:00 a 16:00 hs</td>
-                  <td class="horario">19:00 a 02:00 hs</td>
+                  <td class="bg-black text-light fw-bolder">Domingos</td>
+                  <td class="">12:00 a 16:00 hs</td>
+                  <td class="">19:00 a 02:00 hs</td>
                 </tr>
               </tbody>
-              </table>
+            </table>
           </div>
-        </section>
+        </div>
       </div>
-    </section>
-    <section id="seccion4" class="seccion"> 
-      <div class="contenedor">
-        <h1>
-          RESERVAS
-        </h1>
-        <section class="reserva">
-          <form>
-            <div class="form">
-              <div class="item">
-                <label for="nombre">Nombre Completo</label>
-                <br>
-                <input type="text" name="nombreCliente" id="nombre" required>
-              </div>
-              <div class="item">
-                <label for="cantidad">Cantidad</label>
-                <br>
-                <input type="number" name="cantidadReserva" id="cantidad" required>
-              </div>
-              <div class="item">
-                <label for="local">Local</label>
-                <br>
-                <select name="localReserva" id="local">
-                  <option value="local1">Centro</option>
-                  <option value="local2">Tres Cruces</option>
-                  <option value="local3">Pocitos</option>
-                  <option value="local4">Malvin</option>
-                </select>
-              </div>
-              <div class="item">
-                <label for="fecha">Fecha</label>
-                <br>
-                <input type="date" name="fechaReserva" id="fecha" required>
-              </div>       
-            </div>
+    </div>
+  </section>
+  <section id="bookings" class="">
+    <h1 class="col text-center py-5">
+      RESERVAS
+    </h1>
+    <div class="container">
+        <form class="row mb-5">
+          <div class="col-8 col-lg-5 d-flex flex-column justify-content-between mb-5 mb-lg-0">
+            <label for="nombre">Nombre Completo</label>
+            <input class="mb-5" type="text" name="nombreCliente" id="nombre" required>
 
-            <div class="condiciones">
-              <p>Condiciones de reserva</p>
-              <ul>
-                <li>Se mantiene la reserva hasta 15 minutos luego del horario seleccionado.</li>
-                <li>En el caso de modificaciones, solicitamos contactarse via mail.</li>
-              </ul>
-              <input type="checkbox" name="aceptaTerminos" id="terminos">
+            <label for="local">Local</label>
+            <select name="localReserva" id="local">
+              <option value="local1">Centro</option>
+              <option value="local2">Tres Cruces</option>
+              <option value="local3">Pocitos</option>
+              <option value="local4">Malvin</option>
+            </select>
+          </div>
+          <div class="col-4 col-lg-2 d-flex flex-column justify-content-between mb-5 mb-lg-0">
+            <label for="cantidad">Cantidad</label>
+            <input class="mb-5" type="number" name="cantidadReserva" id="cantidad" required>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fechaReserva" id="fecha" required>
+          </div>
+          <div class="col-12 col-lg-5">
+            <p class="fw-bolder mb-0">Condiciones de reserva</p>
+            <ul class="fw-normal">
+              <li>Se mantiene la reserva hasta 15 minutos luego del horario seleccionado.</li>
+              <li>En el caso de modificaciones, solicitamos contactarse via mail.</li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <input class="w-auto me-2" type="checkbox" name="aceptaTerminos" id="terminos">
               <label for="terminos">Acepto los <strong>términos y condiciones.</strong></label>
-              <br>
-              <button>
-                RESERVAR
-              </button>
             </div>
-          </form>
-        </section>
-      </div>
-    </section>
-
-<footer>
-  <div class="contenedor">
-    <div class="datosContacto">
-      <p><strong>098888888</strong></p>
-      <p><strong>restaruantesushico@gmail.com</strong></p>
+            <br>
+            <button>
+              RESERVAR
+            </button>
+        </form>
     </div>
-    <div class="logoEmpresa">
-      <a href="#seccion1">
-        <img src="./images/favicon.png" alt="Logo de la empresa" title="Logo de la empresa">
-      </a>
+  </section>
+  <footer id="footer" class="">
+    <div class="container">
+      <div class="row text-center d-flex mb-2">
+        <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-end align-items-center mt-sm-5 mt-lg-0">
+          <p class="fw-bolder">agussmartinez62@gmail.com</p>
+        </div>
+        <div class="d-none d-lg-flex justify-content-center align-items-end col-lg-4 h-100">
+          <a class="h-75" href="#nav">
+            <img class="h-100" src="./images/favicon.png" alt="Logo de la empresa" title="Logo de la empresa">
+          </a>
+        </div>
+        <div class="d-none d-md-flex col-md-6 col-lg-4 justify-content-center align-items-end">
+          <div class="m-2">
+            <img src="./images/facebook.png" alt="Logotipo de facebook">
+          </div>
+          <div class="m-2">
+            <img src="./images/instagram.png" alt="Logotipo de instagram">
+          </div>
+          <div class="m-2">
+            <img src="./images/whatsapp.png" alt="Logotipo de whatsapp">
+          </div>
+      </div>
     </div>
-    <div class="redesSociales">
-      <div class="footerImg">
-        <img src="./images/facebook.png" alt="Logotipo de facebook">
-      </div>
-      <div class="footerImg">
-        <img src="./images/instagram.png" alt="Logotipo de instagram">
-      </div>
-      <div class="footerImg">
-        <img src="./images/whatsapp.png" alt="Logotipo de whatsapp">
-      </div>
-    </div>
-  </div>
-</footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
